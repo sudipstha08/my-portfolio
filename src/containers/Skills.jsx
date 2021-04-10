@@ -21,7 +21,7 @@ const Skills = () => (
                 <div
                   className="icon icon-lg icon-shape shadow rounded-circle mb-5"
                   id={skill.skillName}
-                  style={{ cursor: 'pointer' }}
+                  style={{ cursor: 'pointer', margin: '0 3px' }}
                 >
                   <span
                     className="iconify"

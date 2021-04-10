@@ -63,6 +63,10 @@ export const skillsSection = {
       fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
     },
     {
+      skillName: 'NextJs',
+      fontAwesomeClassname: 'simple-icons:next-dot-js',
+    },
+    {
       skillName: 'ReduxJs',
       fontAwesomeClassname: 'logos:redux',
     },

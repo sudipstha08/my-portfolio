@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react'
 import { greetings } from '../portfolio'
 import code from '../assets/lottie/coding.json'
-
 import { Fade } from 'react-reveal'
-
 import { Button, Container, Row, Col } from 'reactstrap'
-
-import GreetingLottie from '../components/DisplayLottie'
+import GreetingLottie from 'components/DisplayLottie'
 import SocialLinks from 'components/SocialLinks'
 
 const Greetings = () => {
