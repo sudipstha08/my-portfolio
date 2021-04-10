@@ -39,15 +39,15 @@ export const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: 'html-5',
+      skillName: 'Html-5',
       fontAwesomeClassname: 'vscode-icons:file-type-html',
     },
     {
-      skillName: 'css3',
+      skillName: 'Css3',
       fontAwesomeClassname: 'vscode-icons:file-type-css',
     },
     {
-      skillName: 'sass',
+      skillName: 'Sass',
       fontAwesomeClassname: 'logos:sass',
     },
     {
@@ -71,7 +71,7 @@ export const skillsSection = {
       fontAwesomeClassname: 'logos:redux',
     },
     {
-      skillName: 'nodejs',
+      skillName: 'NodeJs',
       fontAwesomeClassname: 'logos:nodejs-icon',
     },
     {
@@ -79,7 +79,7 @@ export const skillsSection = {
       fontAwesomeClassname: 'vscode-icons:file-type-npm',
     },
     {
-      skillName: 'sql-database',
+      skillName: 'MySql',
       fontAwesomeClassname: 'vscode-icons:file-type-sql',
     },
     {
@@ -87,7 +87,7 @@ export const skillsSection = {
       fontAwesomeClassname: 'logos:aws',
     },
     {
-      skillName: 'firebase',
+      skillName: 'Firebase',
       fontAwesomeClassname: 'logos:firebase',
     },
     {
@@ -95,15 +95,15 @@ export const skillsSection = {
       fontAwesomeClassname: 'grommet-icons:golang',
     },
     {
-      skillName: 'git',
+      skillName: 'Git',
       fontAwesomeClassname: 'logos:git-icon',
     },
     {
-      skillName: 'docker',
+      skillName: 'Docker',
       fontAwesomeClassname: 'logos:docker-icon',
     },
     {
-      skillName: 'figma',
+      skillName: 'Figma',
       fontAwesomeClassname: 'logos:figma',
     },
     {
