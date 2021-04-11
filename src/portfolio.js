@@ -6,7 +6,7 @@ export const greetings = {
   name: 'Sudip Shrestha',
   title: "Hello, I'm Sudip",
   description:
-    'A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript | Reactjs | NextJs | Nodejs | Firebase | Golang  and some other cool libraries and frameworks and Cross Platform Mobile Apps With React Native.',
+    'A passionate Full Stack Web Developer having an experience of building Web applications with Javascript | React | Next | Node | Firebase | Golang  and some other cool libraries and frameworks and Cross Platform Mobile Apps With React Native.',
   resumeLink: '',
 }
 
@@ -39,7 +39,7 @@ export const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: 'Html-5',
+      skillName: 'Html5',
       fontAwesomeClassname: 'vscode-icons:file-type-html',
     },
     {
@@ -75,7 +75,7 @@ export const skillsSection = {
       fontAwesomeClassname: 'logos:nodejs-icon',
     },
     {
-      skillName: 'npm',
+      skillName: 'Npm',
       fontAwesomeClassname: 'vscode-icons:file-type-npm',
     },
     {
@@ -83,7 +83,7 @@ export const skillsSection = {
       fontAwesomeClassname: 'vscode-icons:file-type-sql',
     },
     {
-      skillName: 'aws',
+      skillName: 'Aws',
       fontAwesomeClassname: 'logos:aws',
     },
     {
@@ -139,7 +139,7 @@ export const SkillBars = [
 export const educationInfo = [
   {
     schoolName: 'Rhododendron International Boarding School',
-    subHeader: 'SLC',
+    subHeader: 'School Leaning Ceritificate (SLC)',
     duration: '2012',
     // desc: '',
     // descBullets: [],

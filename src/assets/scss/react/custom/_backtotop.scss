@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes ROTATE_BUTTON {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.show-back-to-top {
+  position: fixed;
+  bottom: 30px !important;
+  right: 30px !important;
+  z-index: 9999 !important;
+  background: none;
+  border: none;
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+  &:hover{
+    animation-name: ROTATE_BUTTON;
+    animation-duration: 1.3s;
+  }
+}
+
+.hide-back-top-top {
+ display: none;
+}

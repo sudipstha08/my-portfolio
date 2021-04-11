@@ -8,6 +8,7 @@ import Education from './containers/Education'
 import Experience from './containers/Experience'
 import Projects from './containers/Projects'
 import GithubProfile from './containers/GithubProfile'
+import { BackToTop } from './components/BackToTop'
 
 const App = () => (
   <BrowserRouter>
@@ -25,6 +26,7 @@ const App = () => (
             <Experience />
             <Projects />
             <GithubProfile />
+            <BackToTop />
           </>
         )}
       />
