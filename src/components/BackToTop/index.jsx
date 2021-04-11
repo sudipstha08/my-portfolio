@@ -22,7 +22,7 @@ const BackToTop = () => {
     document.documentElement.scrollTop = 0
     document.scrollingElement.scrollTop = 0
   }
-  //985dec
+
   return (
     <button id="btn--backtop" onClick={handleClick}>
       <svg

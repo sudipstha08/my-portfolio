@@ -11,17 +11,17 @@ export const greetings = {
 }
 
 export const openSource = {
-  githubUserName: 'sudipstha08',
+  githubUserName: process.env.REACT_APP_GITHUB_USERNAME,
 }
 
 export const contact = {}
 
 export const socialLinks = {
-  facebook: 'https://www.facebook.com/sud.shr',
-  instagram: 'https://www.instagram.com/iam5udipstha',
-  twitter: 'https://twitter.com/sudipstha08',
-  github: 'https://github.com/sudipstha08',
-  linkedin: 'https://www.linkedin.com/in/sudipstha08/',
+  facebook: process.env.REACT_APP_FACEBOOK_URL,
+  instagram: process.env.REACT_APP_INSTAGRAM_URL,
+  twitter: process.env.REACT_APP_TWITTER_URL,
+  github: process.env.REACT_APP_GITHUB_URL,
+  linkedin: process.env.REACT_APP_LINKEDIN_URL,
 }
 
 export const skillsSection = {
