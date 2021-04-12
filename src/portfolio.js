@@ -39,11 +39,11 @@ export const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: 'Html5',
+      skillName: 'HTML5',
       fontAwesomeClassname: 'vscode-icons:file-type-html',
     },
     {
-      skillName: 'Css3',
+      skillName: 'CSS3',
       fontAwesomeClassname: 'vscode-icons:file-type-css',
     },
     {
@@ -165,7 +165,7 @@ export const experience = [
     companylogo: RtwLogo,
     date: 'Dec 2020 – Present',
     desc: 'Working as a full stack engineer',
-    descBullets: ['Next Js', 'Go', 'Gin', 'Firebase'],
+    descBullets: ['Next JS', 'Go', 'Gin', 'Firebase'],
   },
   {
     role: 'Front-End Developer',
@@ -173,7 +173,7 @@ export const experience = [
     companylogo: TreeleafLogo,
     date: 'May 2020 – Aug 2020',
     desc: 'Worked as a front end engineer',
-    descBullets: ['React Js', 'Redux Js'],
+    descBullets: ['React JS', 'Redux JS', 'Node JS'],
   },
   {
     role: 'Front End Developer Intern',
@@ -181,7 +181,7 @@ export const experience = [
     companylogo: TreeleafLogo,
     date: 'Dec 2019 – Feb 2019',
     desc: 'Developed a lot of professional skills with hands on environment',
-    descBullets: ['React Js', 'Redux Js'],
+    descBullets: ['React JS', 'Redux JS'],
   },
 ]
 
