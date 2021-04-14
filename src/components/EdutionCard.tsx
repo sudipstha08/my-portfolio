@@ -1,9 +1,20 @@
 import React from 'react'
 import { Card, CardBody, Badge } from 'reactstrap'
-
 import { Fade } from 'react-reveal'
 
-const EdutionCard = ({ education }) => (
+interface Education {
+  schoolName?: string;
+  subHeader?: string;
+  duration?: string;
+  desc?: string;
+  descBullets?: string[];
+}
+
+interface Props {
+  education: Education;
+}
+
+const EdutionCard = ({ education }: Props) => (
   <Fade right duration={1000} distance="40px">
     <Card className="card-lift--hover shadow mt-4">
       <CardBody>

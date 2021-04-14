@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "My portfolio built using React Js",
-  "main": "index.js",
+  "main": "index.tsx",
   "repository": {
     "type": "git",
     "url": ""
@@ -15,8 +15,8 @@
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint './src/**/*.{js,jsx}'",
-    "lint:fix": "eslint './src/**/*.{js,jsx}' --fix"
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,13 +51,15 @@
     "react-reveal": "^1.2.2",
     "react-router": "5.1.2",
     "react-router-dom": "5.1.2",
-    "react-scripts": "^4.0.1",
+    "react-scripts": "^4.0.3",
     "reactstrap": "8.4.1"
   },
   "devDependencies": {
     "@types/googlemaps": "3.39.2",
     "@types/markerclustererplus": "2.1.33",
     "@types/react": "^16.9.19",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/reactstrap": "^8.7.2",
     "eslint-config-prettier": "^8.1.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-flowtype": "^3.13.0",

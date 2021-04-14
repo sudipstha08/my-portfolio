@@ -2,7 +2,7 @@ import React, { Suspense } from 'react'
 import Lottie from 'react-lottie'
 import Loading from './Loading'
 
-const GreetingLottie = ({ animationData }) => {
+const GreetingLottie = ({ animationData }: any) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,

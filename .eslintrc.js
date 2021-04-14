@@ -1,4 +1,3 @@
-/* eslint-disable no-dupe-keys */
 const fs = require('fs')
 const path = require('path')
 
@@ -9,7 +8,22 @@ const prettierOptions = JSON.parse(
 module.exports = {
   parser: 'babel-eslint',
   extends: ['prettier'],
-  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y'],
+  plugins: [
+    'prettier',
+    'react',
+    'react-hooks',
+    'jsx-a11y',
+    '@typescript-eslint',
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:import/errors',
+    'plugin:mport/warnings',
+    'plugin:import/typescript',
+    'prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
+    'plugin:cypresis/recommended',
+  ],
   env: {
     jest: true,
     browser: true,
@@ -58,7 +72,7 @@ module.exports = {
     'newline-per-chained-call': 0,
     'no-confusing-arrow': 0,
     'no-console': 1,
-    'no-unused-vars': 2,
+    '@typescript-eslint/no-unused-vars': 'error',
     'no-use-before-define': 0,
     'prefer-template': 2,
     'react/destructuring-assignment': 0,

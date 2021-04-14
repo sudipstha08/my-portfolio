@@ -3,7 +3,7 @@ import EdutionCard from '../components/EdutionCard'
 import { educationInfo } from '../portfolio'
 import { Container, Row, Col } from 'reactstrap'
 
-const Edution = () => (
+const Education = () => (
   <section className="section pb-0 bg-gradient-info my-5">
     <Container>
       <div className="d-flex px-3">
@@ -39,4 +39,4 @@ const Edution = () => (
   </section>
 )
 
-export default Edution
+export default Education
