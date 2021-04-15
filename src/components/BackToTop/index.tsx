@@ -17,10 +17,10 @@ const BackToTop = () => {
     setScroll(isScroll)
   })
 
-  const handleClick = (e) => {
+  const handleClick = (e: React.MouseEvent) => {
     e.preventDefault()
     document.documentElement.scrollTop = 0
-    document.scrollingElement.scrollTop = 0
+    document.scrollingElement!.scrollTop = 0
   }
 
   return (

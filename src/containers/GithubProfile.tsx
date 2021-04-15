@@ -1,15 +1,16 @@
 import React, { useState, useEffect, Suspense } from 'react'
-import { get } from 'axios'
+import axios from 'axios'
 import { Alert } from 'reactstrap'
 import Loading from '../components/Loading'
 import { openSource } from '../portfolio'
-import GithubProfileCard from 'components/GithubProfileCard'
+import GithubProfileCard from '../components/GithubProfileCard'
 
 const GithubProfile = () => {
   const [prof, setProf] = useState({})
 
   const getProfileData = async () => {
-    await get(`https://api.github.com/users/${openSource.githubUserName}`)
+    await axios
+      .get(`https://api.github.com/users/${openSource.githubUserName}`)
       .then((res) => setProf(res.data))
       .catch((err) => {
         err ? (

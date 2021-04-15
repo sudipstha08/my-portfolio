@@ -2,7 +2,11 @@ import React from 'react'
 import { Card, CardBody, Col, Button } from 'reactstrap'
 import { Fade } from 'react-reveal'
 
-const ProjectsCard = ({ data }) => (
+interface Props {
+  data?: any;
+}
+
+const ProjectsCard = ({ data }: Props) => (
   <Col lg="6">
     <Fade bottom duration={1000} distance="40px">
       <Card className="shadow-lg--hover shadow mt-4">

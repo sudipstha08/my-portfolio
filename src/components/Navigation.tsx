@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-
-import { greetings, socialLinks } from '../portfolio'
 import Headroom from 'headroom.js'
+import { greetings, socialLinks } from '../portfolio'
 import {
   UncontrolledCollapse,
   NavbarBrand,
@@ -14,7 +13,6 @@ import {
   Row,
   Col,
 } from 'reactstrap'
-
 import './Navigation.css'
 
 const Navigation = () => {
@@ -27,7 +25,7 @@ const Navigation = () => {
     let headroom = new Headroom(document.getElementById('navbar-main'))
     // initialise
     headroom.init()
-  })
+  }, [])
 
   return (
     <>
