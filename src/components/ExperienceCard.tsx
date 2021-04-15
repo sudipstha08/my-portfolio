@@ -14,7 +14,11 @@ import ColorThief from 'colorthief'
 
 import { Fade } from 'react-reveal'
 
-const ExperienceCard = ({ data }) => {
+interface T {
+ data: any;
+}
+
+const ExperienceCard: React.FC<T> = ({ data }) => {
   const [colorArrays, setColorArrays] = useState([])
   const imgRef = createRef()
 
@@ -39,13 +43,12 @@ const ExperienceCard = ({ data }) => {
           </CardHeader>
           <CardBody className="py-5">
             <img
-              ref={imgRef}
+              ref={imgRef as React.RefObject<HTMLImageElement>}
               className=" bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
-              top
               src={data.companylogo}
               style={{ width: '100px' }}
               onLoad={() => getColorArrays()}
-              alt=""
+              alt="experience-card"
             />
             <CardTitle tag="h5">{data.role}</CardTitle>
             <CardSubtitle>{data.date}</CardSubtitle>

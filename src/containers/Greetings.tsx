@@ -9,10 +9,10 @@ import SocialLinks from '../components/SocialLinks'
 const Greetings = () => {
   useEffect(() => {
     document.documentElement.scrollTop = 0
-    document.scrollingElement.scrollTop = 0
+    document.scrollingElement!  .scrollTop = 0
   }, [])
 
-  var TxtType = function (el, toRotate, period) {
+  var TxtType = function (this: any, el, toRotate, period) {
     this.toRotate = toRotate
     this.el = el
     this.loopNum = 0
@@ -122,7 +122,6 @@ const Greetings = () => {
                 </Row>
               </div>
             </Container>
-            {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +138,6 @@ const Greetings = () => {
               </svg>
             </div>
           </section>
-          {/* 1st Hero Variation */}
         </div>
       </main>
     </Fade>
