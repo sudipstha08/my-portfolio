@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react"
 
 const Loading = () => (
   <div
     className="text-center spinner-grow text-info"
-    style={{ width: '50px', height: '50px' }}
+    style={{ width: "50px", height: "50px" }}
     role="status"
   >
     <span className="sr-only">Loading...</span>
   </div>
 )
 
-export default Loading
+export { Loading }

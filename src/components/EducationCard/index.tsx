@@ -1,17 +1,17 @@
-import React from 'react'
-import { Card, CardBody, Badge } from 'reactstrap'
-import { Fade } from 'react-reveal'
+import React from "react"
+import { Card, CardBody, Badge } from "reactstrap"
+import { Fade } from "react-reveal"
 
 interface Education {
-  schoolName?: string;
-  subHeader?: string;
-  duration?: string;
-  desc?: string;
-  descBullets?: string[];
+  schoolName?: string
+  subHeader?: string
+  duration?: string
+  desc?: string
+  descBullets?: string[]
 }
 
 interface Props {
-  education: Education;
+  education: Education
 }
 
 const EdutionCard = ({ education }: Props) => (
@@ -40,4 +40,4 @@ const EdutionCard = ({ education }: Props) => (
   </Fade>
 )
 
-export default EdutionCard
+export { EdutionCard }

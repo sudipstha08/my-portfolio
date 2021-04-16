@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import Headroom from 'headroom.js'
-import { greetings, socialLinks } from '../portfolio'
+import React, { useState, useEffect } from "react"
+import { Link } from "react-router-dom"
+import Headroom from "headroom.js"
+import { greetings, socialLinks } from "../../portfolio"
 import {
   UncontrolledCollapse,
   NavbarBrand,
@@ -12,17 +12,17 @@ import {
   Container,
   Row,
   Col,
-} from 'reactstrap'
-import './Navigation.css'
+} from "reactstrap"
+import "../Navigation.css"
 
 const Navigation = () => {
-  const [collapseClasses, setCollapseClasses] = useState('')
-  const onExiting = () => setCollapseClasses('collapsing-out')
+  const [collapseClasses, setCollapseClasses] = useState("")
+  const onExiting = () => setCollapseClasses("collapsing-out")
 
-  const onExited = () => setCollapseClasses('')
+  const onExited = () => setCollapseClasses("")
 
   useEffect(() => {
-    let headroom = new Headroom(document.getElementById('navbar-main'))
+    const headroom = new Headroom(document.getElementById("navbar-main"))
     // initialise
     headroom.init()
   }, [])
@@ -138,4 +138,4 @@ const Navigation = () => {
   )
 }
 
-export default Navigation
+export { Navigation }

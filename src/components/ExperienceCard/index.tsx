@@ -1,4 +1,4 @@
-import React, { useState, createRef } from 'react'
+import React, { useState, createRef } from "react"
 
 import {
   Card,
@@ -8,14 +8,14 @@ import {
   CardText,
   CardHeader,
   Col,
-} from 'reactstrap'
+} from "reactstrap"
 
-import ColorThief from 'colorthief'
+import ColorThief from "colorthief"
 
-import { Fade } from 'react-reveal'
+import { Fade } from "react-reveal"
 
 interface T {
- data: any;
+  data: any
 }
 
 const ExperienceCard: React.FC<T> = ({ data }) => {
@@ -28,7 +28,7 @@ const ExperienceCard: React.FC<T> = ({ data }) => {
   }
 
   function rgb(values) {
-    return typeof values === 'undefined' ? null : `rgb(${values.join(', ')})`
+    return typeof values === "undefined" ? null : `rgb(${values.join(", ")})`
   }
 
   return (
@@ -46,7 +46,7 @@ const ExperienceCard: React.FC<T> = ({ data }) => {
               ref={imgRef as React.RefObject<HTMLImageElement>}
               className=" bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
               src={data.companylogo}
-              style={{ width: '100px' }}
+              style={{ width: "100px" }}
               onLoad={() => getColorArrays()}
               alt="experience-card"
             />
@@ -68,4 +68,4 @@ const ExperienceCard: React.FC<T> = ({ data }) => {
   )
 }
 
-export default ExperienceCard
+export { ExperienceCard }

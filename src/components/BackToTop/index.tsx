@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from "react"
 
 const BackToTop = () => {
   const [scroll, setScroll] = useState(0)
 
   useEffect(() => {
-    const btn = document.getElementById('btn--backtop')
+    const btn = document.getElementById("btn--backtop")
     if (scroll > 300) {
-      btn?.classList.add('show-back-to-top')
+      btn?.classList.add("show-back-to-top")
     } else {
-      btn?.classList.remove('show-back-to-top')
+      btn?.classList.remove("show-back-to-top")
     }
   }, [scroll])
 
-  document.addEventListener('scroll', () => {
+  document.addEventListener("scroll", () => {
     const isScroll = document?.documentElement.scrollTop
     setScroll(isScroll)
   })

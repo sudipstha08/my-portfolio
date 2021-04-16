@@ -1,9 +1,9 @@
-import React from 'react'
-import build from '../assets/lottie/build'
-import { SkillBars } from '../portfolio'
-import { Container, Row, Progress, Col } from 'reactstrap'
-import { Fade } from 'react-reveal'
-import GreetingLottie from '../components/DisplayLottie'
+import React from "react"
+import build from "../../assets/lottie/build.json"
+import { SkillBars } from "../../portfolio"
+import { Container, Row, Progress, Col } from "reactstrap"
+import { Fade } from "react-reveal"
+import { DisplayLottie } from "../../components"
 
 const Proficiency = () => (
   <Container className="section section-lg">
@@ -12,7 +12,7 @@ const Proficiency = () => (
         <Col lg="6">
           <h1 className="h1">Proficiency</h1>
           {SkillBars.map((skill) => (
-            <div className="progress-info" key={skill.Stack}>
+            <div className="progress-info" key={`skills-${skill.Stack}`}>
               <div className="progress-label">
                 <span>{skill.Stack}</span>
               </div>
@@ -28,7 +28,7 @@ const Proficiency = () => (
           ))}
         </Col>
         <Col lg="6">
-          <GreetingLottie animationData={build} />
+          <DisplayLottie animationData={build} />
         </Col>
       </Row>
     </Fade>
