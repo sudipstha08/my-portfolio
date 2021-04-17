@@ -53,5 +53,6 @@ module.exports = {
     "react/jsx-uses-react": 0,
     "react/react-in-jsx-scope": 0,
     "@typescript-eslint/no-this-alias": 0,
+    "react/no-string-refs": 0,
   },
 }

@@ -1,4 +1,3 @@
-/* eslint-disable react/no-string-refs */
 import React, { useEffect } from "react"
 import { Fade } from "react-reveal"
 import { Button, Container, Row, Col } from "reactstrap"

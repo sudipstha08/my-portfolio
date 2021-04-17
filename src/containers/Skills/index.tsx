@@ -17,7 +17,7 @@ const Skills = () => (
         <Col lg="6">
           <div className="d-flex justify-content-center flex-wrap mb-5">
             {skillsSection?.softwareSkills?.map((skill) => (
-              <Fragment key={skill.skillName}>
+              <Fragment key={skill.skillName + Math.random() * 9999}>
                 <div
                   className="icon icon-lg icon-shape shadow rounded-circle mb-5"
                   id={skill.skillName}

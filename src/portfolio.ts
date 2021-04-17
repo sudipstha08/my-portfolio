@@ -29,11 +29,11 @@ export const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     ),
   ],
 
@@ -188,11 +188,24 @@ export const experience = [
 export const projects = [
   {
     name: "MySecondTeacher",
-    desc:
-      "Online acedemic delivery platform where students can learn from e-books and interactive videos, seek answers from live tutors online and teachers can schedule and conduct live video classes, distribute assignments & publish the results.",
+    desc: `Online acedemic delivery platform where students can learn 
+      from e-books and interactive videos, seek answers from live tutors 
+      online and teachers can schedule and conduct live video classes, 
+      distribute assignments & publish the results.`,
     link: {
       name: "",
       url: "https://www.mysecondteacher.com/",
+    },
+  },
+  {
+    name: "Sawari Kinbech",
+    desc: `e-commerce platform for automotives. It lets users scroll 
+      through images of the company’s products and navigate to product 
+      pages to read specifications, watch videos of the products in action,
+      Read and write reviews and view related products and much more`,
+    link: {
+      name: "",
+      url: "https://sawarikinbech.com/",
     },
   },
   {
@@ -213,8 +226,8 @@ export const projects = [
   },
   {
     name: "Digi Sign",
-    desc:
-      "Cloud based signature service that lets you easily send, sign, track & manage signature processes",
+    desc: `Cloud based signature service that lets you easily send, sign, track & 
+        manage signature processes`,
     link: {
       name: "",
       url: "",

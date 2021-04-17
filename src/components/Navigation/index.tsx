@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import Headroom from "headroom.js"
-import { greetings, socialLinks } from "../../portfolio"
 import {
   UncontrolledCollapse,
   NavbarBrand,
@@ -13,7 +12,8 @@ import {
   Row,
   Col,
 } from "reactstrap"
-import "../Navigation.css"
+import { greetings, socialLinks } from "../../portfolio"
+import "../../assets/css/Navigation.css"
 
 const Navigation = () => {
   const [collapseClasses, setCollapseClasses] = useState("")
@@ -23,7 +23,6 @@ const Navigation = () => {
 
   useEffect(() => {
     const headroom = new Headroom(document.getElementById("navbar-main"))
-    // initialise
     headroom.init()
   }, [])
 
