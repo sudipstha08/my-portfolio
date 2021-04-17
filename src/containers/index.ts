@@ -6,10 +6,12 @@ import Proficiency from "./Proficiency"
 import Projects from "./Projects"
 import Skills from "./Skills"
 
-export { Education }
-export { Experience }
-export { GithubProfile }
-export { Greetings }
-export { Proficiency }
-export { Projects }
-export { Skills }
+export {
+  Education,
+  Experience,
+  GithubProfile,
+  Greetings,
+  Proficiency,
+  Projects,
+  Skills,
+}
