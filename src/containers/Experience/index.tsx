@@ -1,8 +1,8 @@
-import React from 'react'
-import { Fade } from 'react-reveal'
-import { Container, Row } from 'reactstrap'
-import { experience } from '../portfolio'
-import ExperienceCard from '../components/ExperienceCard'
+import React from "react"
+import { Fade } from "react-reveal"
+import { Container, Row } from "reactstrap"
+import { experience } from "../../portfolio"
+import { ExperienceCard } from "../../components"
 
 const Experience = () => (
   <section className="section section-lg">
@@ -20,7 +20,7 @@ const Experience = () => (
         </div>
         <Row className="row-grid align-items-center">
           {experience?.map((data) => (
-            <ExperienceCard data={data} />
+            <ExperienceCard data={data} key={`exp${Math.random() * 9999}`} />
           ))}
         </Row>
       </Fade>

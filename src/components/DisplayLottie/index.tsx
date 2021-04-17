@@ -1,8 +1,8 @@
-import React, { Suspense } from 'react'
-import Lottie from 'react-lottie'
-import Loading from './Loading'
+import React, { Suspense } from "react"
+import Lottie from "react-lottie"
+import { Loading } from "../Loading"
 
-const GreetingLottie = ({ animationData }: any) => {
+const DisplayLottie = ({ animationData }: any) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -18,4 +18,4 @@ const GreetingLottie = ({ animationData }: any) => {
   )
 }
 
-export default GreetingLottie
+export { DisplayLottie }

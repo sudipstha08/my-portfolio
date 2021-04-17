@@ -1,9 +1,9 @@
-import React from 'react'
-import { Card, Col, Row, Container } from 'reactstrap'
-import SocialLinks from './SocialLinks'
+import React from "react"
+import { Card, Col, Row, Container } from "reactstrap"
+import { SocialLinks } from "../SocialLinks/SocialLinks"
 
 interface Props {
-  prof: any;
+  prof: any
 }
 
 const GithubProfileCard: React.FC<Props> = ({ prof }) => (
@@ -14,7 +14,7 @@ const GithubProfileCard: React.FC<Props> = ({ prof }) => (
           <Col className="order-lg-2" lg="4">
             <img
               src={prof.avatar_url}
-              style={{ width: '200px' }}
+              style={{ width: "200px" }}
               alt=""
               className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
             />
@@ -37,4 +37,4 @@ const GithubProfileCard: React.FC<Props> = ({ prof }) => (
   </Card>
 )
 
-export default GithubProfileCard
+export { GithubProfileCard }

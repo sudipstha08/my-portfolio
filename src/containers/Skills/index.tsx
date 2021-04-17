@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react'
-import { Fade } from 'react-reveal'
-import { Container, Row, Col, UncontrolledTooltip } from 'reactstrap'
-import { skillsSection } from '../portfolio'
-import DisplayLottie from '../components/DisplayLottie'
-import webdev from '../assets/lottie/webdev.json'
+import React, { Fragment } from "react"
+import { Fade } from "react-reveal"
+import { Container, Row, Col, UncontrolledTooltip } from "reactstrap"
+import { skillsSection } from "../../portfolio"
+import { DisplayLottie } from "../../components"
+import webdev from "../../assets/lottie/webdev.json"
 
 const Skills = () => (
   <Fade left duration={1000} distance="40px">
@@ -17,11 +17,11 @@ const Skills = () => (
         <Col lg="6">
           <div className="d-flex justify-content-center flex-wrap mb-5">
             {skillsSection?.softwareSkills?.map((skill) => (
-              <Fragment key={skill.skillName}>
+              <Fragment key={skill.skillName + Math.random() * 9999}>
                 <div
                   className="icon icon-lg icon-shape shadow rounded-circle mb-5"
                   id={skill.skillName}
-                  style={{ cursor: 'pointer', margin: '0 3px' }}
+                  style={{ cursor: "pointer", margin: "0 3px" }}
                 >
                   <span
                     className="iconify"
@@ -41,7 +41,7 @@ const Skills = () => (
           </div>
           <div>
             {skillsSection.skills.map((skill) => (
-              <p key={skill}>{skill}</p>
+              <p key={`skills${Math.random() * 9999}`}>{skill}</p>
             ))}
           </div>
         </Col>

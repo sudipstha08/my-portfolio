@@ -1,30 +1,29 @@
-import React, { useEffect } from 'react'
-import { Fade } from 'react-reveal'
-import { Button, Container, Row, Col } from 'reactstrap'
-import { greetings } from '../portfolio'
-import code from '../assets/lottie/coding.json'
-import GreetingLottie from '../components/DisplayLottie'
-import SocialLinks from '../components/SocialLinks'
+import React, { useEffect } from "react"
+import { Fade } from "react-reveal"
+import { Button, Container, Row, Col } from "reactstrap"
+import { greetings } from "../../portfolio"
+import code from "../../assets/lottie/coding.json"
+import { DisplayLottie, SocialLinks } from "../../components"
 
 const Greetings = () => {
   useEffect(() => {
     document.documentElement.scrollTop = 0
-    document.scrollingElement!  .scrollTop = 0
+    document.scrollingElement!.scrollTop = 0
   }, [])
 
-  var TxtType = function (this: any, el, toRotate, period) {
+  const TxtType = function (this: any, el, toRotate, period) {
     this.toRotate = toRotate
     this.el = el
     this.loopNum = 0
     this.period = parseInt(period, 10) || 2000
-    this.txt = ''
+    this.txt = ""
     this.tick()
     this.isDeleting = false
   }
 
   TxtType.prototype.tick = function () {
-    var i = this.loopNum % this.toRotate.length
-    var fullTxt = this.toRotate[i]
+    const i = this.loopNum % this.toRotate.length
+    const fullTxt = this.toRotate[i]
 
     if (this.isDeleting) {
       this.txt = fullTxt.substring(0, this.txt.length - 1)
@@ -34,8 +33,8 @@ const Greetings = () => {
 
     this.el.innerHTML = `<span class="typewriter-text">${this.txt}</span>`
 
-    var that = this
-    var delta = 200 - Math.random() * 100
+    const that = this
+    let delta = 200 - Math.random() * 100
 
     if (this.isDeleting) {
       delta /= 2
@@ -44,7 +43,7 @@ const Greetings = () => {
     if (!this.isDeleting && this.txt === fullTxt) {
       delta = this.period
       this.isDeleting = true
-    } else if (this.isDeleting && this.txt === '') {
+    } else if (this.isDeleting && this.txt === "") {
       this.isDeleting = false
       this.loopNum++
       delta = 500
@@ -56,18 +55,18 @@ const Greetings = () => {
   }
 
   window.onload = function () {
-    var elements = document.getElementsByClassName('typewrite')
-    for (var i = 0; i < elements.length; i++) {
-      var toRotate = elements[i].getAttribute('data-type')
-      var period = elements[i].getAttribute('data-period')
+    const elements = document.getElementsByClassName("typewrite")
+    for (let i = 0; i < elements.length; i++) {
+      const toRotate = elements[i].getAttribute("data-type")
+      const period = elements[i].getAttribute("data-period")
       if (toRotate) {
         new TxtType(elements[i], JSON.parse(toRotate), period)
       }
     }
     // INJECT CSS
-    var css = document.createElement('style')
-    css.type = 'text/css'
-    css.innerHTML = '.typewrite > .typewriter-text { color: #fff }'
+    const css = document.createElement("style")
+    css.type = "text/css"
+    css.innerHTML = ".typewrite > .typewriter-text { color: #fff }"
     document.body.appendChild(css)
   }
 
@@ -117,7 +116,7 @@ const Greetings = () => {
                     </div>
                   </Col>
                   <Col lg="6">
-                    <GreetingLottie animationData={code} />
+                    <DisplayLottie animationData={code} />
                   </Col>
                 </Row>
               </div>

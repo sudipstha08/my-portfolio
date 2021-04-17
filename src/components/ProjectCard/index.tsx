@@ -1,12 +1,12 @@
-import React from 'react'
-import { Card, CardBody, Col, Button } from 'reactstrap'
-import { Fade } from 'react-reveal'
+import React from "react"
+import { Card, CardBody, Col, Button } from "reactstrap"
+import { Fade } from "react-reveal"
 
 interface Props {
-  data?: any;
+  data?: any
 }
 
-const ProjectsCard = ({ data }: Props) => (
+const ProjectCard = ({ data }: Props) => (
   <Col lg="6">
     <Fade bottom duration={1000} distance="40px">
       <Card className="shadow-lg--hover shadow mt-4">
@@ -38,4 +38,4 @@ const ProjectsCard = ({ data }: Props) => (
   </Col>
 )
 
-export default ProjectsCard
+export { ProjectCard }

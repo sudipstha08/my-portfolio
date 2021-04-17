@@ -1,6 +1,6 @@
-import React from 'react'
-import { Button } from 'reactstrap'
-import { socialLinks } from '../portfolio'
+import React from "react"
+import { Button } from "reactstrap"
+import { socialLinks } from "../../portfolio"
 
 const SocialLinks = () => (
   <div className="btn-wrapper text-lg">
@@ -57,4 +57,4 @@ const SocialLinks = () => (
   </div>
 )
 
-export default SocialLinks
+export { SocialLinks }

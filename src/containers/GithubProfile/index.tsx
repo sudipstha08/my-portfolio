@@ -1,9 +1,8 @@
-import React, { useState, useEffect, Suspense } from 'react'
-import axios from 'axios'
-import { Alert } from 'reactstrap'
-import Loading from '../components/Loading'
-import { openSource } from '../portfolio'
-import GithubProfileCard from '../components/GithubProfileCard'
+import React, { useState, useEffect, Suspense } from "react"
+import axios from "axios"
+import { Alert } from "reactstrap"
+import { Loading, GithubProfileCard } from "../../components"
+import { openSource } from "../../portfolio"
 
 const GithubProfile = () => {
   const [prof, setProf] = useState({})
@@ -16,7 +15,7 @@ const GithubProfile = () => {
         err ? (
           <Alert color="warning">Failed to get the user from github</Alert>
         ) : (
-          ''
+          ""
         )
       })
   }

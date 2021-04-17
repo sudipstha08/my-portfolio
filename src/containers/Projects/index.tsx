@@ -1,8 +1,8 @@
-import React from 'react'
-import { Fade } from 'react-reveal'
-import { Container, Row } from 'reactstrap'
-import { projects } from '../portfolio'
-import ProjectsCard from '../components/ProjectsCard'
+import React from "react"
+import { Fade } from "react-reveal"
+import { Container, Row } from "reactstrap"
+import { projects } from "../../portfolio"
+import { ProjectCard } from "../../components"
 
 const Projects = () => (
   <section className="section section-lg">
@@ -20,7 +20,7 @@ const Projects = () => (
         </div>
         <Row className="row-grid align-items-center">
           {projects.map((data) => (
-            <ProjectsCard data={data} />
+            <ProjectCard data={data} key={`project${Math.random() * 9999}`} />
           ))}
         </Row>
       </Fade>

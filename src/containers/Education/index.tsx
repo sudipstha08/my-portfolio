@@ -1,7 +1,7 @@
-import React from 'react'
-import EdutionCard from '../components/EdutionCard'
-import { educationInfo } from '../portfolio'
-import { Container, Row, Col } from 'reactstrap'
+import React from "react"
+import { EdutionCard } from "../../components"
+import { educationInfo } from "../../portfolio"
+import { Container, Row, Col } from "reactstrap"
 
 const Education = () => (
   <section className="section pb-0 bg-gradient-info my-5">
@@ -18,7 +18,11 @@ const Education = () => (
       </div>
       <Row className="row-grid align-items-center">
         {educationInfo?.map((info) => (
-          <Col className="order-lg-1" lg="6" key={info.schoolName}>
+          <Col
+            className="order-lg-1"
+            lg="6"
+            key={info.schoolName + Math.random() * 9999}
+          >
             <EdutionCard education={info} />
           </Col>
         ))}
