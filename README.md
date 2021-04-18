@@ -7,6 +7,6 @@
 |npm run deploy   |deploy application to github pages | 
 
 ## use
-1. Create .env file in your root directory using .env.example file
-2. Update portfolio.js file according to your requirements
+1. Create .env file in your root directory. Take `.env.example` file as reference
+2. Update `portfolio.js` file according to your requirements
 3. Start app
