@@ -12,7 +12,7 @@ import {
 } from "./containers"
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route
         path="/"
