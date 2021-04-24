@@ -12,6 +12,6 @@
 3. Start app `npm start`
 
 ## Live Site
-<a href="https://shresthasudip08.com.np" rel="my portfolio">
-![my-portfolio](https://github.com/sudipstha08/my-portfolio/blob/master/src/assets/img/image/img.png?raw=true)
-</a>
+[![portfolio image](https://github.com/sudipstha08/my-portfolio/blob/master/src/assets/img/image/img.png?raw=true)](https://shresthasudip08.com.np/)
+
+<a href="https://shresthasudip08.com.np" rel="my portfolio">![my-portfolio](https://github.com/sudipstha08/my-portfolio/blob/master/src/assets/img/image/img.png?raw=true)</a>
