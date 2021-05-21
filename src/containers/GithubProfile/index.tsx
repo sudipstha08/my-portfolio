@@ -5,28 +5,32 @@ import { Loading, GithubProfileCard } from "../../components"
 import { openSource } from "../../portfolio"
 
 const GithubProfile = () => {
-  const [prof, setProf] = useState({})
+  const [profile, setProfile] = useState({})
 
   const getProfileData = async () => {
-    await axios
-      .get(`https://api.github.com/users/${openSource.githubUserName}`)
-      .then((res) => setProf(res.data))
-      .catch((err) => {
-        err ? (
-          <Alert color="warning">Failed to get the user from github</Alert>
-        ) : (
-          ""
-        )
-      })
+    try {
+      const res = await axios.get(
+        `https://api.github.com/users/${openSource.githubUserName}`
+      )
+      if (res) {
+        setProfile(res.data)
+      }
+    } catch (err) {
+      return err ? (
+        <Alert color="warning">Failed to get the user from github</Alert>
+      ) : (
+        ""
+      )
+    }
   }
 
   useEffect(() => {
     getProfileData()
-  })
+  }, [])
 
   return (
     <Suspense fallback={<Loading />}>
-      <GithubProfileCard prof={prof} />
+      <GithubProfileCard prof={profile} />
     </Suspense>
   )
 }
