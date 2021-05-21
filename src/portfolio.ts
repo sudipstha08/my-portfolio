@@ -208,29 +208,4 @@ export const projects = [
       url: "https://sawarikinbech.com/",
     },
   },
-  {
-    name: "Kowapets",
-    desc: "Full featured e-commerce platform for buying and selling of pets.",
-    link: {
-      name: "",
-      url: "",
-    },
-  },
-  {
-    name: "Gliv",
-    desc: "Video streaming platform for mobile and web",
-    link: {
-      name: "",
-      url: "",
-    },
-  },
-  {
-    name: "Digi Sign",
-    desc: `Cloud based signature service that lets you easily send, sign, track & 
-        manage signature processes`,
-    link: {
-      name: "",
-      url: "",
-    },
-  },
 ]
