@@ -18,7 +18,7 @@ jobs:
       uses: sterlingwes/gh-pages-deploy-action@v1.1
       with: 
         access-token:  ${{ secrets.ACCESS_TOKEN }}
-        source-directory: public
+        source-directory: build
         build-command: npm run build
-        custom-domain: https://shresthasudip08.com.np/
+        custom-domain: shresthasudip08.com.np
         deploy-branch: main
