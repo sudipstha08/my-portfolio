@@ -14,15 +14,6 @@ jobs:
       uses: actions/setup-node@v1
       with: 
         node-version: 14.x
-    - name: Build
-      env:
-        CI: false
-        REACT_APP_GITHUB_USERNAME: ${{ secrets.REACT_APP_GITHUB_USERNAME }}
-        REACT_APP_GITHUB_URL: ${{ secrets.REACT_APP_GITHUB_URL }}
-        REACT_APP_FACEBOOK_URL: ${{ secrets.REACT_APP_FACEBOOK_URL }}
-        REACT_APP_INSTAGRAM_URL: ${{ secrets.REACT_APP_INSTAGRAM_URL }}
-        REACT_APP_TWITTER_URL: ${{ secrets.REACT_APP_TWITTER_URL }}
-        REACT_APP_LINKEDIN_URL: ${{ secrets.REACT_APP_LINKEDIN_UR }}
     - name: Deploy to github pages
       uses: sterlingwes/gh-pages-deploy-action@v1.1
       with: 
@@ -31,3 +22,11 @@ jobs:
         build-command: npm run build
         custom-domain: shresthasudip08.com.np
         deploy-branch: gh-pages
+      env:
+        CI: false
+        REACT_APP_GITHUB_USERNAME: ${{ secrets.REACT_APP_GITHUB_USERNAME }}
+        REACT_APP_GITHUB_URL: ${{ secrets.REACT_APP_GITHUB_URL }}
+        REACT_APP_FACEBOOK_URL: ${{ secrets.REACT_APP_FACEBOOK_URL }}
+        REACT_APP_INSTAGRAM_URL: ${{ secrets.REACT_APP_INSTAGRAM_URL }}
+        REACT_APP_TWITTER_URL: ${{ secrets.REACT_APP_TWITTER_URL }}
+        REACT_APP_LINKEDIN_URL: ${{ secrets.REACT_APP_LINKEDIN_UR }}
