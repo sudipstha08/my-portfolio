@@ -83,8 +83,8 @@ export const skillsSection = {
       fontAwesomeClassname: "vscode-icons:file-type-sql",
     },
     {
-      skillName: "Aws",
-      fontAwesomeClassname: "logos:aws",
+      skillName: "GCP",
+      fontAwesomeClassname: "logos:google-cloud",
     },
     {
       skillName: "Firebase",
@@ -93,6 +93,10 @@ export const skillsSection = {
     {
       skillName: "Golang",
       fontAwesomeClassname: "grommet-icons:golang",
+    },
+    {
+      skillName: "Gin",
+      fontAwesomeClassname: "logos:go",
     },
     {
       skillName: "Git",
@@ -115,8 +119,8 @@ export const skillsSection = {
       fontAwesomeClassname: "logos:material-ui",
     },
     {
-      skillName: "GCP",
-      fontAwesomeClassname: "logos:google-cloud",
+      skillName: "GithubActions",
+      fontAwesomeClassname: "akar-icons:github-fill",
     },
   ],
 }
