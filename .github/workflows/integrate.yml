@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs: 
-  test_pull_request: 
+  build: 
     runs-on: ubuntu-latest
     strategy:
       matrix:
