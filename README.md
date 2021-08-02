@@ -1,4 +1,7 @@
 # my-portfolio
+![CI/CD](https://github.com/sudipstha08/my-portfolio/workflows/my-portfolio_ci/badge.svg)
+![CI/CD](https://github.com/sudipstha08/my-portfolio/workflows/my-portfolio_cd/badge.svg)
+![License](https://img.shields.io/github/license/dyarleniber/react-workflow-gh-actions)
 
 | Commands        | Descripton                        |
 |-----------------|-----------------------------------|
