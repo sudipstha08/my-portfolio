@@ -20,4 +20,5 @@ jobs:
         access-token:  ${{ secrets.ACCESS_TOKEN }}
         source-directory: public
         build-command: npm run build
-        custom-domain: shresthasudip08.com.np
+        custom-domain: https://shresthasudip08.com.np/
+        deploy-branch: main
