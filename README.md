@@ -16,3 +16,6 @@
 
 ## Live Site
 <a href="https://shresthasudip08.com.np" rel="my portfolio">![my-portfolio](https://github.com/sudipstha08/my-portfolio/blob/main/src/assets/img/image/img.png?raw=true)</a>
+
+## References
+1. https://iconify.design/icon-sets/
