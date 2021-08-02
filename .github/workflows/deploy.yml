@@ -15,4 +15,9 @@ jobs:
       with: 
         node-version: 14.x
     - name: Deploy to github pages
-      uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
+      uses: sterlingwes/gh-pages-deploy-action@v1.1
+      with: 
+        access-token:  ${{ secrets.ACCESS_TOKEN }}
+        source-directory: public
+        build-command: npm run build
+        custom-domain: shresthasudip08.com.np
