@@ -21,4 +21,4 @@ jobs:
         source-directory: public
         build-command: npm run build
         custom-domain: shresthasudip08.com.np
-        deploy-branch: main
+        deploy-branch: gh-pages
