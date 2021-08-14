@@ -3,11 +3,11 @@
 ![CI/CD](https://github.com/sudipstha08/my-portfolio/workflows/my-portfolio_cd/badge.svg)
 ![License](https://img.shields.io/github/license/dyarleniber/react-workflow-gh-actions)
 
-| Commands        | Descripton                        |
-|-----------------|-----------------------------------|
-|npm start        |run development server             |
-|npm build        |build application                  | 
-|npm run deploy   |deploy application to github pages | 
+| commands         | descripton                         |
+|------------------|------------------------------------|
+| `npm start`      | start development server           |
+| `npm build`      | build application                  | 
+| `npm run deploy` | deploy application to github pages | 
 
 ### How to get started ?
 1. Create `.env` file in your root directory. Take `.env.example` file as reference
