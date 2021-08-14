@@ -26,7 +26,7 @@ export const socialLinks = {
 
 export const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE FULL STACK DEVELOPER EXPLORING NEW TECH EVERYDAY",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -83,8 +83,8 @@ export const skillsSection = {
       fontAwesomeClassname: "vscode-icons:file-type-sql",
     },
     {
-      skillName: "Aws",
-      fontAwesomeClassname: "logos:aws",
+      skillName: "GCP",
+      fontAwesomeClassname: "logos:google-cloud",
     },
     {
       skillName: "Firebase",
@@ -93,6 +93,10 @@ export const skillsSection = {
     {
       skillName: "Golang",
       fontAwesomeClassname: "grommet-icons:golang",
+    },
+    {
+      skillName: "Gin",
+      fontAwesomeClassname: "logos:go",
     },
     {
       skillName: "Git",
@@ -115,8 +119,8 @@ export const skillsSection = {
       fontAwesomeClassname: "logos:material-ui",
     },
     {
-      skillName: "GCP",
-      fontAwesomeClassname: "logos:google-cloud",
+      skillName: "GithubActions",
+      fontAwesomeClassname: "akar-icons:github-fill",
     },
   ],
 }

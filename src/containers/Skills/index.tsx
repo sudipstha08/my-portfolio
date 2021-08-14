@@ -4,6 +4,7 @@ import { Container, Row, Col, UncontrolledTooltip } from "reactstrap"
 import { skillsSection } from "../../portfolio"
 import { DisplayLottie } from "../../components"
 import webdev from "../../assets/lottie/webdev.json"
+// Iconify for icons
 
 const Skills = () => (
   <Fade left duration={1000} distance="40px">
