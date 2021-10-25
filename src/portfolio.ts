@@ -59,24 +59,20 @@ export const skillsSection = {
       fontAwesomeClassname: "logos:typescript-icon",
     },
     {
-      skillName: "ReactJs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "vscode-icons:file-type-reactjs",
     },
     {
-      skillName: "NextJs",
+      skillName: "NextJS",
       fontAwesomeClassname: "simple-icons:next-dot-js",
     },
     {
-      skillName: "ReduxJs",
+      skillName: "ReduxJS",
       fontAwesomeClassname: "logos:redux",
     },
     {
-      skillName: "NodeJs",
+      skillName: "NodeJS",
       fontAwesomeClassname: "logos:nodejs-icon",
-    },
-    {
-      skillName: "Npm",
-      fontAwesomeClassname: "vscode-icons:file-type-npm",
     },
     {
       skillName: "MySql",
