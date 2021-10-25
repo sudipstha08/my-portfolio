@@ -59,24 +59,20 @@ export const skillsSection = {
       fontAwesomeClassname: "logos:typescript-icon",
     },
     {
-      skillName: "ReactJs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "vscode-icons:file-type-reactjs",
     },
     {
-      skillName: "NextJs",
+      skillName: "NextJS",
       fontAwesomeClassname: "simple-icons:next-dot-js",
     },
     {
-      skillName: "ReduxJs",
+      skillName: "ReduxJS",
       fontAwesomeClassname: "logos:redux",
     },
     {
-      skillName: "NodeJs",
+      skillName: "NodeJS",
       fontAwesomeClassname: "logos:nodejs-icon",
-    },
-    {
-      skillName: "Npm",
-      fontAwesomeClassname: "vscode-icons:file-type-npm",
     },
     {
       skillName: "MySql",
@@ -136,7 +132,7 @@ export const SkillBars = [
   },
   {
     Stack: "Programming",
-    progressPercentage: "60",
+    progressPercentage: "63",
   },
 ]
 
@@ -169,23 +165,23 @@ export const experience = [
     companylogo: RtwLogo,
     date: "Dec 2020 – Present",
     desc: "Working as a full stack engineer",
-    descBullets: ["Next JS", "Go", "Gin", "Firebase"],
+    descBullets: ["NextJS", "Go", "Gin", "Firebase"],
   },
   {
     role: "Front-End Developer",
     company: "Treeleaf Technologies",
     companylogo: TreeleafLogo,
-    date: "May 2020 – Aug 2020",
+    date: "Mar 2020 – Aug 2020",
     desc: "Worked as a front end engineer",
-    descBullets: ["React JS", "Redux JS", "Node JS"],
+    descBullets: ["ReactJS", "ReduxJS", "NodeJS"],
   },
   {
     role: "Front End Developer Intern",
     company: "Treeleaf Technologies",
     companylogo: TreeleafLogo,
-    date: "Dec 2019 – Feb 2019",
+    date: "Dec 2019 – Feb 2020",
     desc: "Developed a lot of professional skills with hands on environment",
-    descBullets: ["React JS", "Redux JS"],
+    descBullets: ["ReactJS", "ReduxJS"],
   },
 ]
 

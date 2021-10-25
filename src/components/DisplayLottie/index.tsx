@@ -1,8 +1,12 @@
-import React, { Suspense } from "react"
+import React, { Suspense, FC } from "react"
 import Lottie from "react-lottie"
 import { Loading } from "../Loading"
 
-const DisplayLottie = ({ animationData }: any) => {
+interface IProps {
+  animationData?: any
+}
+
+const DisplayLottie: FC<IProps> = ({ animationData }) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
