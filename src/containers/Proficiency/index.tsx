@@ -1,9 +1,9 @@
 import React from "react"
-import build from "../../assets/lottie/build.json"
-import { SkillBars } from "../../portfolio"
 import { Container, Row, Progress, Col } from "reactstrap"
 import { Fade } from "react-reveal"
 import { DisplayLottie } from "../../components"
+import build from "../../assets/lottie/build.json"
+import { SkillBars } from "../../portfolio"
 
 const Proficiency = () => (
   <Container className="section section-lg">

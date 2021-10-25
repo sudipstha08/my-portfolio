@@ -1,5 +1,4 @@
 import React, { useState, createRef } from "react"
-
 import {
   Card,
   CardBody,
@@ -9,16 +8,14 @@ import {
   CardHeader,
   Col,
 } from "reactstrap"
-
 import ColorThief from "colorthief"
-
 import { Fade } from "react-reveal"
 
-interface T {
+interface IProps {
   data: any
 }
 
-const ExperienceCard: React.FC<T> = ({ data }) => {
+const ExperienceCard: React.FC<IProps> = ({ data }) => {
   const [colorArrays, setColorArrays] = useState([])
   const imgRef = createRef()
 
