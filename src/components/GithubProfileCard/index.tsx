@@ -14,9 +14,10 @@ const GithubProfileCard: React.FC<Props> = ({ prof }) => (
           <Col className="order-lg-2" lg="4">
             <img
               src={prof.avatar_url}
-              style={{ width: "200px" }}
-              alt=""
+              alt="profile"
               className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
+              width="200"
+              height="200"
             />
           </Col>
           <Col lg="8" className="order-lg-1">
