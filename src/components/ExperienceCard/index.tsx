@@ -43,7 +43,8 @@ const ExperienceCard: React.FC<IProps> = ({ data }) => {
               ref={imgRef as React.RefObject<HTMLImageElement>}
               className=" bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
               src={data.companylogo}
-              style={{ width: "100px" }}
+              width="100"
+              height="100"
               onLoad={() => getColorArrays()}
               alt="experience-card"
             />
