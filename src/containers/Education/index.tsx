@@ -1,7 +1,7 @@
 import React from "react"
+import { Container, Row, Col } from "reactstrap"
 import { EdutionCard } from "../../components"
 import { educationInfo } from "../../portfolio"
-import { Container, Row, Col } from "reactstrap"
 
 const Education = () => (
   <section className="section pb-0 bg-gradient-info my-5">

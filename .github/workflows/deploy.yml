@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build_and_deploy_to_gh_pages:
     runs-on: ubuntu-latest
     steps:
     - name: Clone repository 
@@ -18,7 +18,15 @@ jobs:
       uses: sterlingwes/gh-pages-deploy-action@v1.1
       with: 
         access-token:  ${{ secrets.ACCESS_TOKEN }}
-        source-directory: public
+        source-directory: build
         build-command: npm run build
-        custom-domain: https://shresthasudip08.com.np/
-        deploy-branch: main
+        custom-domain: shresthasudip08.com.np
+        deploy-branch: gh-pages
+      env:
+        CI: false
+        REACT_APP_GITHUB_USERNAME: ${{ secrets.REACT_APP_GITHUB_USERNAME }}
+        REACT_APP_GITHUB_URL: ${{ secrets.REACT_APP_GITHUB_URL }}
+        REACT_APP_FACEBOOK_URL: ${{ secrets.REACT_APP_FACEBOOK_URL }}
+        REACT_APP_INSTAGRAM_URL: ${{ secrets.REACT_APP_INSTAGRAM_URL }}
+        REACT_APP_TWITTER_URL: ${{ secrets.REACT_APP_TWITTER_URL }}
+        REACT_APP_LINKEDIN_URL: ${{ secrets.REACT_APP_LINKEDIN_URL }}

@@ -4,6 +4,7 @@ import { Container, Row, Col, UncontrolledTooltip } from "reactstrap"
 import { skillsSection } from "../../portfolio"
 import { DisplayLottie } from "../../components"
 import webdev from "../../assets/lottie/webdev.json"
+// Iconify for icons
 
 const Skills = () => (
   <Fade left duration={1000} distance="40px">
@@ -16,7 +17,7 @@ const Skills = () => (
         </Col>
         <Col lg="6">
           <div className="d-flex justify-content-center flex-wrap mb-5">
-            {skillsSection?.softwareSkills?.map((skill) => (
+            {skillsSection?.softwareSkills?.map((skill: any) => (
               <Fragment key={skill.skillName + Math.random() * 9999}>
                 <div
                   className="icon icon-lg icon-shape shadow rounded-circle mb-5"

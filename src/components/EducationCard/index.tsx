@@ -10,11 +10,11 @@ interface Education {
   descBullets?: string[]
 }
 
-interface Props {
+interface IProps {
   education: Education
 }
 
-const EdutionCard = ({ education }: Props) => (
+const EdutionCard = ({ education }: IProps) => (
   <Fade right duration={1000} distance="40px">
     <Card className="card-lift--hover shadow mt-4">
       <CardBody>
