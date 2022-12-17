@@ -127,6 +127,10 @@ export const skillsSection = {
       skillName: "MongoDB",
       fontAwesomeClassname: "vscode-icons:file-type-mongo",
     },
+    {
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "logos:postgresql",
+    },
   ],
 }
 
