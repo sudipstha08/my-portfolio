@@ -34,8 +34,9 @@ export const skillsSection = {
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ GCP/ Stripe"
     ),
+    emoji("⚡ Learning blockchain development"),
   ],
 
   softwareSkills: [
@@ -126,6 +127,10 @@ export const skillsSection = {
     {
       skillName: "MongoDB",
       fontAwesomeClassname: "vscode-icons:file-type-mongo",
+    },
+    {
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "logos:postgresql",
     },
   ],
 }
