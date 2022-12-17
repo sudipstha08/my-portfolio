@@ -119,6 +119,14 @@ export const skillsSection = {
       skillName: "GithubActions",
       fontAwesomeClassname: "akar-icons:github-fill",
     },
+    {
+      skillName: "ReactNative",
+      fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "vscode-icons:file-type-mongo",
+    },
   ],
 }
 
