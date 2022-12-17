@@ -29,7 +29,7 @@ const ExperienceCard: React.FC<IProps> = ({ data }) => {
   }
 
   return (
-    <Col lg="4">
+    <Col lg="4" className="mb-4">
       <Fade left duration={1000} distance="40px">
         <Card
           style={{ flex: 1 }}

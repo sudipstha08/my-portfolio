@@ -5,7 +5,7 @@ import { projects } from "../../portfolio"
 import { ProjectCard } from "../../components"
 
 const Projects = () => (
-  <section className="section section-lg">
+  <section className="section mb-5">
     <Container>
       <Fade bottom duration={1000} distance="40px">
         <div className="d-flex p-4">

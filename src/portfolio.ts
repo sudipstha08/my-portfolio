@@ -1,6 +1,7 @@
 import emoji from "react-easy-emoji"
 import TreeleafLogo from "./assets/img/icons/common/treeleaf-logo.svg"
 import RtwLogo from "./assets/img/icons/common/rtw-logo.svg"
+import MomentoLogo from "./assets/img/icons/common/momento.png"
 
 export const greetings = {
   name: "Sudip Shrestha",
@@ -161,9 +162,17 @@ export const educationInfo = [
 export const experience = [
   {
     role: "Software Engineer",
+    company: "MomentoNFT",
+    companylogo: MomentoLogo,
+    date: "Mar 2022 – Present",
+    desc: "Working as a full stack engineer",
+    descBullets: ["NextJS", "NodeJs", "React Native"],
+  },
+  {
+    role: "Software Engineer",
     company: "Ready To Work",
     companylogo: RtwLogo,
-    date: "Dec 2020 – Present",
+    date: "Dec 2020 – Mar 2022",
     desc: "Working as a full stack engineer",
     descBullets: ["NextJS", "Go", "Gin", "Firebase"],
   },
