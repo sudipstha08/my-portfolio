@@ -51,7 +51,7 @@ const ExperienceCard: React.FC<IProps> = ({ data }) => {
             <CardTitle tag="h5">{data.role}</CardTitle>
             <CardSubtitle>{data.date}</CardSubtitle>
             <CardText className="description my-3 text-left">
-              {data?.desc}
+              {/* {data?.desc} */}
               <ul>
                 {data?.descBullets?.map((desc) => (
                   <li key={desc}>{desc}</li>

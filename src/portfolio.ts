@@ -23,6 +23,7 @@ export const socialLinks = {
   twitter: process.env.REACT_APP_TWITTER_URL,
   github: process.env.REACT_APP_GITHUB_URL,
   linkedin: process.env.REACT_APP_LINKEDIN_URL,
+  medium: process.env.REACT_APP_MEDIUM_URL,
 }
 
 export const skillsSection = {
@@ -178,23 +179,23 @@ export const experience = [
     company: "MomentoNFT",
     companylogo: MomentoLogo,
     date: "Mar 2022 – Present",
-    desc: "Working as a full stack engineer",
-    descBullets: ["NextJS", "NodeJs", "React Native"],
+    desc: "Full stack engineer",
+    descBullets: ["NextJS", "NodeJs", "React Native", "AWS"],
   },
   {
     role: "Software Engineer",
     company: "Ready To Work",
     companylogo: RtwLogo,
     date: "Dec 2020 – Mar 2022",
-    desc: "Working as a full stack engineer",
+    desc: "Full stack engineer",
     descBullets: ["NextJS", "Go", "Gin", "Firebase"],
   },
   {
-    role: "Front-End Developer",
+    role: "Front-End Engineer",
     company: "Treeleaf Technologies",
     companylogo: TreeleafLogo,
     date: "Mar 2020 – Aug 2020",
-    desc: "Worked as a front end engineer",
+    desc: "Front end engineer",
     descBullets: ["ReactJS", "ReduxJS", "NodeJS"],
   },
   {
