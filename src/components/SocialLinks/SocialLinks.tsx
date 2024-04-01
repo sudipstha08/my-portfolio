@@ -16,22 +16,12 @@ const SocialLinks = () => (
     </Button>
     <Button
       className="btn-icon-only rounded-circle ml-1"
-      color="facebook"
-      href={socialLinks.facebook}
+      color="dark"
+      href={socialLinks.medium}
       target="_blank"
     >
       <span className="btn-inner--icon">
-        <i className="fa fa-facebook-square" />
-      </span>
-    </Button>
-    <Button
-      className="btn-icon-only rounded-circle ml-1"
-      color="instagram"
-      href={socialLinks.instagram}
-      target="_blank"
-    >
-      <span className="btn-inner--icon">
-        <i className="fa fa-instagram" />
+        <i className="fa fa-medium" />
       </span>
     </Button>
     <Button
@@ -52,6 +42,26 @@ const SocialLinks = () => (
     >
       <span className="btn-inner--icon">
         <i className="fa fa-linkedin" />
+      </span>
+    </Button>
+    <Button
+      className="btn-icon-only rounded-circle ml-1"
+      color="facebook"
+      href={socialLinks.facebook}
+      target="_blank"
+    >
+      <span className="btn-inner--icon">
+        <i className="fa fa-facebook-square" />
+      </span>
+    </Button>
+    <Button
+      className="btn-icon-only rounded-circle ml-1"
+      color="instagram"
+      href={socialLinks.instagram}
+      target="_blank"
+    >
+      <span className="btn-inner--icon">
+        <i className="fa fa-instagram" />
       </span>
     </Button>
   </div>

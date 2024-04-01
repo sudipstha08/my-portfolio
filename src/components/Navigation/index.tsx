@@ -71,30 +71,6 @@ const Navigation = () => {
                 <NavItem>
                   <NavLink
                     className="nav-link-icon"
-                    href={socialLinks.facebook}
-                    target="_blank"
-                  >
-                    <i className="fa fa-facebook-square" />
-                    <span className="nav-link-inner--text d-lg-none ml-2">
-                      Facebook
-                    </span>
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink
-                    className="nav-link-icon"
-                    href={socialLinks.instagram}
-                    target="_blank"
-                  >
-                    <i className="fa fa-instagram" />
-                    <span className="nav-link-inner--text d-lg-none ml-2">
-                      Instagram
-                    </span>
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink
-                    className="nav-link-icon"
                     href={socialLinks.twitter}
                     target="_blank"
                   >
@@ -119,12 +95,48 @@ const Navigation = () => {
                 <NavItem>
                   <NavLink
                     className="nav-link-icon"
+                    href={socialLinks.medium}
+                    target="_blank"
+                  >
+                    <i className="fa fa-medium" />
+                    <span className="nav-link-inner--text d-lg-none ml-2">
+                      Medium
+                    </span>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    className="nav-link-icon"
                     href={socialLinks.linkedin}
                     target="_blank"
                   >
                     <i className="fa fa-linkedin" />
                     <span className="nav-link-inner--text d-lg-none ml-2">
                       Linkedin
+                    </span>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    className="nav-link-icon"
+                    href={socialLinks.facebook}
+                    target="_blank"
+                  >
+                    <i className="fa fa-facebook-square" />
+                    <span className="nav-link-inner--text d-lg-none ml-2">
+                      Facebook
+                    </span>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    className="nav-link-icon"
+                    href={socialLinks.instagram}
+                    target="_blank"
+                  >
+                    <i className="fa fa-instagram" />
+                    <span className="nav-link-inner--text d-lg-none ml-2">
+                      Instagram
                     </span>
                   </NavLink>
                 </NavItem>

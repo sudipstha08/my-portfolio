@@ -23,6 +23,7 @@ export const socialLinks = {
   twitter: process.env.REACT_APP_TWITTER_URL,
   github: process.env.REACT_APP_GITHUB_URL,
   linkedin: process.env.REACT_APP_LINKEDIN_URL,
+  medium: process.env.REACT_APP_MEDIUM_URL,
 }
 
 export const skillsSection = {
