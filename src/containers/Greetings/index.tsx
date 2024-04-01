@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import { Fade } from "react-reveal"
-import { Button, Container, Row, Col } from "reactstrap"
+import { Container, Row, Col } from "reactstrap"
 import { greetings } from "../../portfolio"
 import code from "../../assets/lottie/coding.json"
 import { DisplayLottie, SocialLinks } from "../../components"
@@ -102,7 +102,7 @@ const Greetings = () => {
                     </h1>
                     <p className="lead text-white">{greetings.description}</p>
                     <SocialLinks />
-                    <div className="btn-wrapper my-4">
+                    {/* <div className="btn-wrapper my-4">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
@@ -113,7 +113,7 @@ const Greetings = () => {
                         </span>
                         <span className="btn-inner--text">See My Resume</span>
                       </Button>
-                    </div>
+                    </div> */}
                   </Col>
                   <Col lg="6">
                     <DisplayLottie animationData={code} />
