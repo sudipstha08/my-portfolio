@@ -37,3 +37,6 @@
 <p align="center">
 	:star: :star: Happy coding :star: :star: 
 </p>
+
+### REFERENCES
+- <a href="https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">Managing your personal access tokens for github</a>
