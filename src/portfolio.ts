@@ -7,7 +7,7 @@ export const greetings = {
   name: "Sudip Shrestha",
   title: "Hello, I'm Sudip",
   description:
-    "A passionate Full Stack Web Developer having an experience of building Web applications with Javascript | React | Next | Node | Firebase | Golang  and some other cool libraries and frameworks and Cross Platform Mobile Apps With React Native.",
+    "A passionate Full Stack Software Engineer having an experience of building Web applications with Javascript | React | Next | Node | Firebase | Golang | AWS  and some other cool libraries and frameworks and Cross Platform Mobile Apps With React Native.",
   resumeLink: "",
 }
 
@@ -28,7 +28,7 @@ export const socialLinks = {
 
 export const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE FULL STACK DEVELOPER EXPLORING NEW TECH EVERYDAY",
+  subTitle: "PASSIONATE FULL SOFTWARE ENGINEER EXPLORING NEW TECH EVERYDAY",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -229,6 +229,16 @@ export const projects = [
     link: {
       name: "",
       url: "https://sawarikinbech.com/",
+    },
+  },
+  {
+    name: "Kowapets",
+    desc: `Kowapets is a full featured Japanese e-commerce platform for selling and buying pets. 
+          Collaborated with cross-functional teams to implement features, improve platform performance, 
+          and ensure seamless user experiences`,
+    link: {
+      name: "",
+      url: "https://kowapets.co.jp/",
     },
   },
 ]
