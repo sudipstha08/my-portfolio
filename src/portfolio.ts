@@ -6,8 +6,10 @@ import MomentoLogo from "./assets/img/icons/common/momento.png"
 export const greetings = {
   name: "Sudip Shrestha",
   title: "Hello, I'm Sudip",
-  description:
-    "A passionate Full Stack Software Engineer having an experience of building Web applications with Javascript | React | Next | Node | Firebase | Golang | AWS  and some other cool libraries and frameworks and Cross Platform Mobile Apps With React Native.",
+  description: `A passionate Full Stack Software Engineer having an experience of building Web applications with 
+                Javascript | React | Next | Node | Firebase | Golang | AWS  and some other cool libraries and frameworks 
+                and Cross Platform Mobile Apps With React Native.
+              `,
   resumeLink: "",
 }
 
@@ -176,7 +178,7 @@ export const educationInfo = [
 export const experience = [
   {
     role: "Software Engineer",
-    company: "MomentoNFT",
+    company: "Momento AI",
     companylogo: MomentoLogo,
     date: "Mar 2022 – Present",
     desc: "Full stack engineer",
@@ -210,7 +212,7 @@ export const experience = [
 
 export const projects = [
   {
-    name: "MySecondTeacher",
+    name: "My Second Teacher",
     desc: `Online acedemic delivery platform where students can learn 
       from e-books and interactive videos, seek answers from live tutors 
       online and teachers can schedule and conduct live video classes, 
