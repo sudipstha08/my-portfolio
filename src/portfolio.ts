@@ -241,4 +241,15 @@ export const projects = [
       url: "https://kowapets.co.jp/",
     },
   },
+  {
+    name: "MomentoAI",
+    desc: `MomentoAI is a AI cloning platform where you can create a digital clone of yourself & 
+          interact with digital version of others. You can train your clone & transform it into a 
+          powerhouse of knowledge with accurate and real time data about you.
+          `,
+    link: {
+      name: "",
+      url: "https://momentoai.com/",
+    },
+  },
 ]
