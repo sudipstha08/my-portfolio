@@ -42,6 +42,7 @@ export const skillsSection = {
     emoji("⚡ Learning blockchain development"),
   ],
 
+  // iconify
   softwareSkills: [
     {
       skillName: "HTML5",
@@ -134,6 +135,14 @@ export const skillsSection = {
     {
       skillName: "PostgreSQL",
       fontAwesomeClassname: "logos:postgresql",
+    },
+    {
+      skillName: "Jest",
+      fontAwesomeClassname: "logos:jest",
+    },
+    {
+      skillName: "Cypress",
+      fontAwesomeClassname: "tabler:brand-cypress",
     },
   ],
 }
