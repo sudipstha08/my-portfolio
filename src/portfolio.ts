@@ -6,7 +6,7 @@ import MomentoLogo from "./assets/img/icons/common/momento.png"
 export const greetings = {
   name: "Sudip Shrestha",
   title: "Hello, I'm Sudip",
-  description: `A passionate Full Stack Software Engineer having an experience of building Web applications with 
+  description: `A passionate Software Engineer having an experience of building Web applications with 
                 Javascript | React | Next | Node | Firebase | Golang | AWS  and some other cool libraries and frameworks 
                 and Cross Platform Mobile Apps With React Native.
               `,
