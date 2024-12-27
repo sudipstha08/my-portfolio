@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.009b7601.chunk.css",
+    "main.js": "/static/js/main.728e01fe.chunk.js",
+    "main.js.map": "/static/js/main.728e01fe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09d9ec0b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09d9ec0b.js.map",
+    "static/js/2.fc48a121.chunk.js": "/static/js/2.fc48a121.chunk.js",
+    "static/js/2.fc48a121.chunk.js.map": "/static/js/2.fc48a121.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.009b7601.chunk.css.map": "/static/css/main.009b7601.chunk.css.map",
+    "static/js/2.fc48a121.chunk.js.LICENSE.txt": "/static/js/2.fc48a121.chunk.js.LICENSE.txt",
+    "static/media/Navigation.css": "/static/media/Agustina.320d237b.otf",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/momento.9a1b88bd.png": "/static/media/momento.9a1b88bd.png",
+    "static/media/nucleo.css": "/static/media/nucleo-icons.d6a66724.ttf",
+    "static/media/rtw-logo.8ea4568a.svg": "/static/media/rtw-logo.8ea4568a.svg",
+    "static/media/treeleaf-logo.2480af42.svg": "/static/media/treeleaf-logo.2480af42.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09d9ec0b.js",
+    "static/js/2.fc48a121.chunk.js",
+    "static/css/main.009b7601.chunk.css",
+    "static/js/main.728e01fe.chunk.js"
+  ]
+}
